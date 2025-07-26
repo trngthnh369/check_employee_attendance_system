@@ -4,7 +4,7 @@ A smart face recognition system for employee attendance tracking using FAISS vec
 
 ## 🚀 Live Demo
 
-[![Streamlit App](https://img.shields.io/badge/👁️‍🗨️_Streamlit-Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://aio2025-check-attendance.streamlit.app/)
+[![Streamlit App](https://img.shields.io/badge/👁️‍🗨️_Streamlit-Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://check-face-system.streamlit.app/)
 
 > 🎯 **Try the live demo above to test system without any setup!**
 
@@ -109,12 +109,12 @@ streamlit run check_employee_streamlit_app.py
 ## 📁 Project Structure
 
 ```text
-AIO_Module02_Project_Demo/
-├── app.py                  # Main Streamlit application
+checcheck_employee_attendance_systemk/
+├── check_employee_streamlit_app.py                  # Main Streamlit application
 ├── facenet_label_map.npy   # Labels of Index
 ├── facenet_features.index  # Faiss Index
 ├── requirements.txt        # Python dependencies
-├── Dataset/                # Dataset
+├── dataset/                # Dataset
 │   └── Avatar_employee-name.jpg
 └── README.md           # This file
 ```
