@@ -299,9 +299,9 @@ def visualize_embeddings(query_embedding=None, matches=None):
 
 def get_avatar_image(employee_name):
     """Get avatar image path for an employee."""
-    avatar_path_jpg = f"./Dataset/Avatar_{employee_name}.jpg"
-    avatar_path_JPG = f"./Dataset/Avatar_{employee_name}.JPG"
-    
+    avatar_path_jpg = f"./dataset/Avatar_{employee_name}.jpg"
+    avatar_path_JPG = f"./dataset/Avatar_{employee_name}.JPG"
+
     if os.path.exists(avatar_path_jpg):
         return avatar_path_jpg
     elif os.path.exists(avatar_path_JPG):
